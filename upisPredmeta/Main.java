@@ -25,7 +25,7 @@ public class Main extends Application {
 	TextField[] editi = new TextField[4];
 	ComboBox<String> cb = new ComboBox<String>();
 	BufferedWriter out;
-	
+	   
 	@SuppressWarnings("static-access")
 	@Override
 	public void start(Stage stage) {
