@@ -71,9 +71,7 @@ public class Main extends Application {
 			if(rez.toLowerCase().equals("xxx") || rez2.toLowerCase().equals("xxx")) imamoPobednika("X");
 			if(rez.toLowerCase().equals("ooo") || rez2.toLowerCase().equals("ooo")) imamoPobednika("O");
 		}
-		if(br == 9) {
-			nereseno();
-		}
+		if(br == 9) nereseno();
 	}
 	private void imamoPobednika(String winner) {
 		Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "Pobednik je " +winner+"! Nova igra?", ButtonType.YES, ButtonType.NO);
